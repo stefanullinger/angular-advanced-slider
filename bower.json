@@ -1,0 +1,29 @@
+{
+  "name": "angular-advanced-slider",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sullinger/angular-advanced-slider",
+  "authors": [
+    "Stefan Ullinger <stefan@slicemenice.de>"
+  ],
+  "description": "",
+  "keywords": [
+    "AngularJS",
+    "slider",
+    "range"
+  ],
+  "license": "MIT",
+  "main": [
+    "sources/**/*.module.js",
+    "sources/**/*"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-modular-modernizr": "~0.4.0"
+  }
+}
