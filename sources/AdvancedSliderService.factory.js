@@ -35,7 +35,7 @@
 
 			// To calculate the offset of any element relative to another element, we have to find a common parent
 			// of both elements. Obviously, the document is one of them, so we will use it.
-			if ( isTouchSupported ) {
+			if ( Modernizr.supportsTouch ) {
 				offset = event.touches[0].pageX - service.getOffsetLeft( element );
 			} else {
 				event = fixEventOffset( event );
